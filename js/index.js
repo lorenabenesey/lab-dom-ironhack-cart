@@ -26,7 +26,7 @@ function calculateAll() {
 // ITERATION 4
 
 function removeProduct(event) {
-  const target = event.currentTarget;
+event.currentTarget.parentNode.parentNode.remove();
   console.log('The target in remove is:', target);
   //... your code goes here
 }
